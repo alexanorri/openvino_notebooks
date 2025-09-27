@@ -45,7 +45,7 @@ def make_demo(model_id):
         neg_prompt="",
     ):
         if seed == -1:
-            seed = np.randint(0, 10000000)
+            seed = np.random.randint(0, 10000000)
         generator = torch.Generator().manual_seed(seed)
         res = None
 
