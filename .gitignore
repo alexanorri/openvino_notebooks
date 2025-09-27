@@ -27,6 +27,12 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# Video Files
+.avi
+*.avi
+.mp4
+*.mp4
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
