@@ -118,3 +118,6 @@ pipcache_openvino/
 
 # PySpelling generated dictionary
 .ci/spellcheck/dictionary
+*.csv#
+*.csv
+*.csv
